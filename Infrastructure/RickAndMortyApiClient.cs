@@ -22,7 +22,7 @@ namespace RicksFriends.Infrastructure
         public async Task<CharacterResponse> GetCharactersAsync(string status, string species, int minEpisodeCount, int page)
         {
             var url = $"https://rickandmortyapi.com/api/character/?status={status}&species={species}&page={page}";
-            url = $"https://rickandmortyapi.com/api/character/?page={page}";
+            //url = $"https://rickandmortyapi.com/api/character/?page={page}";
             var response = await _httpClient.GetAsync(url);
             response.EnsureSuccessStatusCode();
 

@@ -78,10 +78,22 @@ Esperamos um código bem estruturado, lógico e simples. Não há necessidade de
 
 Nos envie através do `README` ou do e-mail um simples descritivo do seu processo nesse desafio, as dificuldades, descobertas, etc.
 
-## Travado?
+## Descritivo do processo de desenvolvimento
 
-Se você travar ou tiver alguma dúvida não deixe de entrar em contato, via email ou uma Issue no repositório. Estamos em busca de pessoas que sejam independentes mas que não tenham medo de perguntar/questionar quando necessário. Isso não afetará a nossa avaliação.
+Primeiramente foi um prazer pode criar este desafio, justamente de uma série que gosto tanto.
+Após uma boa olhada na documentação disponível, fiz uma breve avaliação de alguns dos forks já criados.
+O mais interessante que achei foi do Manocchio que usou DDD.
 
-## Obrigado!
+Como eu não queria fazer o mesmo e a sugestão era pra que fosse feito em C#, optei pela implementação no padrão Clean Arquitecture da MS. Utilizando o próprio template do Visual Studio 2022 para .NET Core Web Aplication, que utiliza Razor Pages.
+Não tenho costume de utilizar Razor Pages, pois não acho legal essa magia toda por debaixo dos panos sem meu controle do que está ocorrendo.
+Depois de ter feito, achei que ficaria melhor fazer uma WebApi e um frontend em angular ou react.
+A parte fácil foi criar o Domain e Infrastructure com o ApiClient pra fazer a requisição http.
+Depois aproveitando o template apenas criei a página Characters pra exibir os dados.
+Como queria testar a paginação se estava ok fiz um teste chamando a api sem os filtros.
+Após fazer alguns ajustes na response pra funcionar com a paginação,
+Eu tive dificuldade em fazer a paginação funcionar utilizando o asp-page= asp-route-page= e acabei utilizando href mesmo.
 
-Estamos animados pela oportunidade de trabalhar com você e saber do é capaz!
+No fim fiz uma pequena perfumaria no CSS e me dei por satisfeito.
+
+
+
